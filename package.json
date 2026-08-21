@@ -1,0 +1,12 @@
+{
+  "name": "zeebra-careers-sync",
+  "version": "1.0.0",
+  "description": "Syncs job listings from the external jobs API into the Zeebra Webflow site's Careers CMS collection.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node sync.js"
+  }
+}
