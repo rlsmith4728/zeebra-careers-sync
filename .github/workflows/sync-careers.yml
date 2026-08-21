@@ -15,5 +15,5 @@ jobs:
           node-version: 20
       - run: node sync.js
         env:
-          WEBFLOW_API_TOKEN: ${{ secrets.WEBFLOW_API_TOKEN }}
-          WEBFLOW_COLLECTION_ID: ${{ vars.WEBFLOW_COLLECTION_ID }}
+          WEBFLOW_API_TOKEN: ${{ secrets.ZEEBRA_JOBLISTINGS_API_TOKEN }}
+          WEBFLOW_COLLECTION_ID: ${{ vars.ZEEBRA_JOBLISTING_COLLECTION_ID }}

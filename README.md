@@ -30,8 +30,8 @@ Manually-added Careers entries (no `Source ID`) are never touched.
    directly in the Webflow dashboard and copy it straight into the GitHub
    secret below.
 3. In the GitHub repo, go to **Settings → Secrets and variables → Actions**:
-   - Add a **secret** named `WEBFLOW_API_TOKEN` with that token.
-   - Add a **variable** named `WEBFLOW_COLLECTION_ID` set to
+   - Add a **secret** named `ZEEBRA_JOBLISTINGS_API_TOKEN` with that token.
+   - Add a **variable** named `ZEEBRA_JOBLISTING_COLLECTION_ID` set to
      `6a8832a4562424c077c256ad` (the Careers collection on
      `robs-emea-zeebra-proj`).
 4. Go to the **Actions** tab, select "Sync Careers CMS", and run it once
